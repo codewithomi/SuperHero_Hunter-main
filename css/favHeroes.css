@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+
+
+header {
+    height: 3rem;
+    width: auto;
+    margin-bottom: 2rem;
+    background-color: #002846;
+}
+
+.nav-bar {
+    height: 3rem;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2rem;
+    align-items: center;
+}
+
+.nav-bar a {
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+
+.nav-bar h1 {
+    color: #f1f0f0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 2rem;
+
+}
+
+
+/***************************************************************************/
+
+
+
+
+/* this is a fav hero parent container */
+#fav-hero-container {
+    border: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: auto;
+    width: 85%;
+    display: flex;
+    box-shadow: 0px 5px 5px 5px rgb(111, 109, 109);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
+}
+
+/* hero image  */
+.favImage {
+
+    width: 200px;
+    height: 200px;
+    border: 4px solid rgb(255, 255, 255);
+    box-shadow: 2px 2px 4px 4px rgb(0, 0, 0);
+}
+
+/* this is a fav hero container */
+#fav-hero-container div {
+    margin-top: 2rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+#fav-hero-container div button {
+    outline: none;
+    border: none;
+    margin-bottom: 20px;
+}
+
+#fav-hero-container div button:hover {
+    box-shadow: blueviolet 1px 1px 5px 1px;
+}
+
+/* super hero name */
+#fav-hero-container h3 {
+    height: 2rem;
+    width: 12rem;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 0px 0px rgb(111, 109, 109);
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    font-size: 1.4rem;
+    border: none;
+    text-align: center;
+
+}
+
+div a {
+
+    text-decoration: none;
+    display: block;
+    width: 11.5rem;
+    margin: 0 auto;
+
+}
+
+
+/* remove button */
+.removeFav {
+
+    height: 2rem;
+    width: 8rem;
+    background-color: #DF0000;
+    box-shadow: 0px 5px 0px 0px rgb(111, 109, 109);
+    color: white;
+    font-weight: 900;
+    font-size: 1.4rem;
+    border: none;
+
+
+
+
+}
+
+.removeFav:hover {
+    cursor: pointer;
+}
